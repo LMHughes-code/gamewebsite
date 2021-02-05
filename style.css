@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display&display=swap');
+
+
+body{
+    display: flex;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #465775;
+}
+
+.all_text{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.nav_bar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #FF5A5F;
+}
+
+.nav{
+    height: 100%;
+}
+
+.nav_far{
+    text-align: center;
+    width: 10%;
+
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav_left{
+    align-items: center;
+    width: 20%;
+}
+
+.text_box{
+    margin: 10px 20% 10px
+}
