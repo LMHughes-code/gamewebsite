@@ -7,7 +7,7 @@ body{
     height: 100vh;
     width: 100vw;
     flex-direction: column;
-    background-color: #465775;
+    background-color: #114b5f ;
 }
 
 .all_text{
@@ -19,7 +19,7 @@ body{
     display: flex;
     height: 50px;
     width: 100%;
-    background-color: #FF5A5F;
+    background-color: #C6DABF;
 }
 
 .nav{
@@ -29,7 +29,6 @@ body{
 .nav_far{
     text-align: center;
     width: 10%;
-
 }
 
 li{
@@ -48,5 +47,22 @@ ul{
 }
 
 .text_box{
-    margin: 10px 20% 10px
+    margin: 20px 20% 20px
+}
+
+.text_back{
+    background-color: #88D498;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#head{
+    font-weight: 600;
+}
+
+button{
+    background-color: #77B6EA;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 12px;
 }
